@@ -1,0 +1,148 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Login screen styles */
+#login {
+    background: url('login-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#login h2 {
+    color: #fff;
+}
+
+#login input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#login button {
+    padding: 10px 20px;
+    background: url('./public/images/login-bg-image.avif') no-repeat center center;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Conference interface styles */
+#conference {
+    display: none;
+    background: url('./public/images/conference-bg.avif') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#conference h2 {
+    color: #fff;
+}
+
+#conference button {
+    padding: 10px 20px;
+    background: url('./public/images/btn-bg.avif') no-repeat center center;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Video grid styles */
+#video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 20px;
+}
+
+video {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Whiteboard styles */
+canvas {
+    border: 1px solid #000;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* Login screen styles */
+#login {
+    background: url('./images/login-bg.avif') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#login h2 {
+    color: #fff;
+}
+
+#login input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#login button {
+    padding: 10px 20px;
+    background: url('./images/btn-bg.avif') no-repeat center center;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Conference interface styles */
+#conference {
+    display: none;
+    background: url('./images/conference-bg.avif') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#conference h2 {
+    color: #fff;
+}
+
+#conference button {
+    padding: 10px 20px;
+    background: url('./images/btn-bg.avif') no-repeat center center;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+}
